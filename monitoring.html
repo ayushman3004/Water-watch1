@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Water Wastage</title>
+    <link rel="stylesheet" href="monitoring.css">
+    <style>
+        #up{
+            background-color: rgba(94, 159, 189, 0.511);
+        }
+        #down{
+            background-color: rgba(94, 159, 189, 0.511);
+        }
+        #img1{
+            height: 455px;
+            width: 455px;
+        }
+        #img2{
+            height: 455px;
+            width: 590px;
+        }
+    </style>
+</head>
+<body class="">
+    <!-- navbar starts here  -->
+    <nav class="flex bg-slate-800 w-full h-16 flex-wrap justify-between items-center" id="navbar">
+        <div class="px-4">
+            <img class="w-14 rounded-full" src="https://previews.123rf.com/images/glopphy/glopphy1204/glopphy120400029/13042073-drop-of-water-logo.jpg" alt="LOGO">
+        </div>
+        <div>
+            <ul class="md:flex flex-wrap hidden text-white ">
+                <a class="mx-[10px]" href="index.html"><li>Home</li></a>
+                <a class="mx-[10px]" href="solution.html"><li>Solution</li></a>
+                <a class="mx-[10px]" href="monitoring.html"><li>Monitoring</li></a>
+                <a class="mx-[10px]" href="Reporting.html"><li>Report</li></a>
+                <a class="mx-[10px]" href="aboutUs.html"><li>About Us</li></a>
+            </ul>
+        </div>
+        <a href="login.html"><div class="hidden md:block  bg-indigo-700 text-white rounded-2xl hover:bg-indigo-400 cursor-pointer">
+            <button class="mx-4 my-4">Login/signup</button>
+        </div></a>
+        <div class="md:hidden block text-3xl">
+            <p class="font-bold">
+                &#9776;
+            </p>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+    <!-- hero section  -->
+    <div id="down">
+    <div class="flex items-center justify-center h-auto flex-wrap" >
+        <div class=""><img src="https://i.pinimg.com/originals/10/4e/47/104e47a81ed19cd20915fb99c7c6d038.jpg" alt="" class="p-10 " id="img1"></div>
+        <div class=""><img src="https://img.freepik.com/free-vector/paper-style-world-water-day-infographic-template_23-2149293512.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698019200&semt=ais" alt="" class="p-10" id="img2"></div>
+    </div>
+    <!-- <img src="https://5.imimg.com/data5/SELLER/Default/2021/2/AO/KU/NO/51189530/inline-drip-irrigation-system.jpg" alt=""> -->
+    <div class=" text-center flex-wrap" id="up">
+        <form action="monitoring">
+            <label for="Track" class="text-4xl ">Track Your Daily Activity</label>
+            <br>
+            <div class="flex-wrap flex-col justify-center ">
+                <p class="mt-5">Shower Water wastage:</p> <input type="text" placeholder="Enter in liters" class="bg-sky-200 w-50 rounded-xl px-4 ">
+                <label for=""></label>
+                <br>
+                <p class="mt-5">Tap water wastage:</p><input type="text" placeholder="Enter in liters" class="bg-sky-200 w-50 rounded-xl px-4">
+                
+                <label for=""></label>
+                <br>
+                <p class="mt-5">Drain water wastage: </p><input type="text" placeholder="Enter in liters"  class=" bg-sky-200 w-50  rounded-xl px-4">
+                
+                <label for=""></label>
+                <br>
+                <p class="mt-5">Sewage Water Wastage:</p> <input type="text" placeholder="Enter in liters" class="bg-sky-200 w-50  rounded-xl px-4">
+                
+            </div>
+        </form>
+    </div>
+    </div>
+    <footer>
+        <div class="text-center">
+            <div>
+                <p>&#169; 2023 Water Watch, Inc. All rights reserved.</p>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
